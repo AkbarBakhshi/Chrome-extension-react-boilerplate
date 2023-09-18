@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Weather Extension",
+    "version": "1.0.0",
+    "description": "This is a weather extension",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "icon.png",
+            "24": "icon.png",
+            "32": "icon.png"
+        },
+        "default_title": "Weather Extension",
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "storage",
+        "alarms",
+        "notifications"
+    ]
+}
